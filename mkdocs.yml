@@ -1,0 +1,34 @@
+site_name: mlctl - MLOps Orchestration Toolset
+repo_url: https://github.com/intuit/mlctl
+
+nav:
+  - Home: 'index.md'
+  - Getting Started: 'getting_started.md'
+  - mlctl Ecosystem:
+    - ML-Baklava (Build tool): 'mlbaklava/index.md'
+    - ML-Sriracha (Multi Cloud connector): 'mlsriracha/index.md'
+
+# Configuration
+# https://materialdesignicons.com/
+theme:
+  name: material
+  icon:
+    logo: material/brain
+  features:
+#    - navigation.tabs
+#    - navigation.tabs.sticky
+
+plugins:
+  - search
+  - macros
+  
+# Extensions
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite:
+      linenums: true
+  - meta
+  - pymdownx.highlight
+  - pymdownx.superfences
